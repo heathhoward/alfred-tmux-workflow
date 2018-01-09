@@ -1,7 +1,3 @@
-# (CLOSED) Tmux Workflow for Alfred app
-
-**This project is no longer mantained. Since tmux is command line by nature, I don't find any advantage of managing sessions from within Alfred**
-
 Alfred workflow to manage tmux sessions, integrated with iTerm2. It can list current sessions, connect to them, kill them or create a new one. The connect or create action actually opens iTerm2 and connects to the session. Additionally, in all the _open_ actions (new session or connect to session) it can ```cd``` to the current Finder's or Path Finder's directory.
 
 Please note: the workflow _only_ handles tmux sessions. It doesn't handle windows, panes, or any other tmux command.
@@ -36,4 +32,5 @@ For OS X 10.9 Mavericks, Download the [alfred-tmux.alfredworkflow](https://githu
 For Previous OS X Versions, Download the [alfred-tmux.alfredworkflow](https://github.com/ramiroaraujo/alfred-tmux-workflow/raw/pre-mavericks/alfred-tmux.alfredworkflow) and import to Alfred 2.
 
 ## Changelog
-* _2014-02-05_ - Released
+* _2014-02-05_ - Released by ramiroaraujo/alfred-tmux-workflow
+* _2018-01-09_ - Forked from ramiroaraujo/alfred-tmux-workflow
